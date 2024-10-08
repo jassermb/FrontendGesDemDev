@@ -1,0 +1,14 @@
+/* Optionnel : Styles supplémentaires pour personnaliser la checkbox */
+.custom-checkbox .form-check-input:checked {
+    background-color: #007bff; /* Couleur de fond lorsque cochée */
+    border-color: #007bff; /* Couleur de bordure lorsque cochée */
+}
+
+.custom-checkbox .form-check-input {
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.custom-checkbox .form-check-input:focus {
+    border-color: #0056b3; /* Couleur de bordure au focus */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Ombre au focus */
+}

@@ -1,0 +1,65 @@
+/* CloseDevelopmentRequest.css */
+.close-development-request-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Remplir la hauteur de la fenêtre */
+    background-color: #f7f9fc; /* Couleur de fond légère */
+}
+
+.close-development-request {
+    background-color: #ffffff; /* Couleur de fond blanche */
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre pour le relief */
+    padding: 20px; /* Espacement intérieur */
+    width: 400px; /* Largeur fixe */
+}
+
+h2 {
+    color: #333333; /* Couleur du texte */
+    text-align: center; /* Centrer le titre */
+    margin-bottom: 20px; /* Espacement sous le titre */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Espacement entre les champs du formulaire */
+}
+
+label {
+    display: block; /* S'assurer que les labels sont en bloc */
+    margin-bottom: 5px; /* Espacement sous le label */
+    font-weight: bold; /* Texte en gras */
+    color: #555555; /* Couleur des labels */
+}
+
+input[type="date"],
+input[type="number"],
+textarea {
+    width: 100%; /* Largeur complète */
+    padding: 10px; /* Espacement intérieur */
+    border: 1px solid #ccc; /* Bordure grise */
+    border-radius: 4px; /* Coins arrondis */
+    box-sizing: border-box; /* Inclure le padding dans la largeur totale */
+    transition: border-color 0.3s; /* Transition pour l'effet de survol */
+}
+
+input[type="date"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+    border-color: #007bff; /* Couleur de la bordure lors du focus */
+    outline: none; /* Retirer l'outline par défaut */
+}
+
+.btn-submit {
+    background-color: #007bff; /* Couleur du bouton */
+    color: white; /* Couleur du texte */
+    border: none; /* Pas de bordure */
+    padding: 10px 15px; /* Espacement intérieur du bouton */
+    border-radius: 4px; /* Coins arrondis */
+    cursor: pointer; /* Changer le curseur en main */
+    transition: background-color 0.3s; /* Transition pour le changement de couleur */
+}
+
+.btn-submit:hover {
+    background-color: #0056b3; /* Couleur lors du survol */
+}

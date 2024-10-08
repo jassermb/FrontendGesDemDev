@@ -1,0 +1,128 @@
+/* Navbar container */
+.navbar-container {
+    background-color: #09193f; 
+
+  }
+  
+  /* Navbar brand logo */
+  .navbar-logo {
+    width: 150px;
+    height: 55px;
+    filter: brightness(2.2); 
+  }
+  .me-auto{
+    color: lightblue;
+  }
+  
+  /* Navigation links */
+  .navbar-nav-link {
+    color: #ffffff;
+  }
+  
+  .navbar-nav-link:hover {
+    color: #cccccc; 
+  }
+  .navbar-user-toggle {
+    border: none;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    background-color: #3e4144;
+    /* filter: brightness(2.2); */
+  }
+  .navbar-user-toggle:hover{
+    background-color: #3e4144;
+    color: white;
+
+  }
+  
+/* 
+  
+
+  .navbar-user-toggle:checked{
+    background-color: #3e4144;
+  } */
+
+  /* .navbar-user-toggle:hover{
+    background-color: #3e4144;
+    color: white;
+
+  } */
+  
+  /* User avatar */
+  .navbar-user-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+
+
+  
+  .navbar-notification-header {
+    font-weight: bold;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .navbar-notification-item {
+    padding: 10px;
+    border-bottom: 1px solid #dee2e6;
+    cursor: pointer;
+    
+  }
+  
+  .navbar-notification-item:hover {
+   color: black;
+  }
+  
+  .notification-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .notification-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .notification-type {
+    font-weight: bold;
+  }
+  
+  
+  
+  .notification-time {
+    margin-top: 5px;
+    font-size: 0.875rem;
+    color: #adb5bd;
+  }
+  
+
+  .navbar-dropdown-item {
+    color: #000000; 
+    padding: 10px 15px; /* Spacing */
+    border: 1px solid black; /* Transition effect */
+    border-radius: 8px; /* Rounded corners */
+    transition: all 0.2s; /* Smooth transition */
+    width: 150px;
+
+
+  }
+  
+  .navbar-dropdown-item:hover {
+    background-color: #ffffff; /* Hover effect */
+    border-radius: 8px; 
+  }
+  .navbar-user-icon {
+    color: rgb(0, 0, 0); /* Icon color */
+  }
+  
+  .navbar-user-menu {
+    background-color: #fff; /* White background for contrast */
+    border-radius: 8px; /* Rounded corners */
+    min-width: 100px; /* Ensures menu is wide enough */
+
+  }
